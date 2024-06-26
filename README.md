@@ -1,2 +1,3 @@
-# webpack-template
-A template repository for webpack projects I create. 
+# TOP's Weather App Project
+
+The weather app project in The Odin Project curriculum, the purpose of which is to practice using APIs.
