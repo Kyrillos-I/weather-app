@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./Roboto-Bold.ttf") format("truetype");
+}
+body {
+  background-color: #10d4ef;
+  color: #ffffff;
+  font-family: "Roboto", serif;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Roboto-Bold", serif;
+  margin-top: 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-size: 20px;
+}
+input {
+  width: 650px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+input::placeholder {
+  font-size: 20px;
+}
+.submit {
+  height: 40px;
+  width: 80px;
+  border-radius: 30px;
+  border: none;
+  align-self: center;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #1048ef;
+  border: 1px solid #1048ef;
+}
+h2 {
+  font-size: 50px;
+}
+.weatherCards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #10d4ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 2px solid gray;
+  border-top: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.max-min {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.icon {
+  width: 64px;
+  height: auto;
+}
+span.avgSpan {
+  font-size: 30px;
+}
+span {
+  font-size: 20px;
+  color: rgb(245, 245, 0);
+}
+.date {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.max > span {
+  color: rgb(174, 0, 0);
+}
+.min > span {
+  color: rgb(55, 55, 255);
+}
+.units {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  display: flex;
+  gap: 5px;
+}
+.unit {
+  width: 80px;
+  height: 50px;
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+  border: 2px solid #d9d9d9;
+}
+.farenheit {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  text-align: center;
+}
+.celsius {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  text-align: center;
+}
+.selected {
+  background-color: #d9d9d9;
+}

@@ -6,7 +6,7 @@
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   },
-  "name": "webpack-template",
+  "name": "weather-app",
   "description": "A template repository for webpack projects I create.",
   "version": "1.0.0",
   "main": "index.js",

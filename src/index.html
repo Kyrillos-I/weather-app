@@ -3,9 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Weather By Location</title>
   </head>
-  <body></body>
+  <body>
+    <div class="head">
+      <h1>Weather By Location</h1>
+      <form action="" class="enterLocation">
+        <label for="location"
+          >Enter the city, zip code, or area of where you want to know the
+          weather:</label
+        >
+        <input
+          type="text"
+          name="location"
+          id="location"
+          placeholder="New York City..."
+        />
+        <button class="submit">Submit</button>
+      </form>
+      <h2>New York City, New York, USA</h2>
+      <div class="weatherCards">
+        <div class="day1 day">
+          <div class="date date1">07/26/2024</div>
+          <div class="card1 card">
+            <img class="icon icon1" src="" alt="" />
+            <div class="avg avg1">Avg: <span class="avgSpan">88 ^F</span></div>
+            <div class="max-min">
+              <div class="max max1">Max: <span>93 ^F</span></div>
+              <div class="min min1">Min: <span>75 ^f</span></div>
+            </div>
+            <div class="condition condition1">Condtion: Sunny</div>
+          </div>
+        </div>
+        <div class="day2 day">
+          <div class="date date2">07/26/2024</div>
+          <div class="card2 card">
+            <img class="icon icon2" src="" alt="" />
+            <div class="avg avg2">Avg: <span class="avgSpan">88 ^F</span></div>
+            <div class="max-min">
+              <div class="max max2">Max: <span>93 ^F</span></div>
+              <div class="min min2">Min: <span>75 ^f</span></div>
+            </div>
+            <div class="condition condition2">Condtion: Sunny</div>
+          </div>
+        </div>
+        <div class="day3 day">
+          <div class="date date3">07/26/2024</div>
+          <div class="card3 card">
+            <img class="icon icon3" src="" alt="" />
+            <div class="avg avg3">Avg: <span class="avgSpan">88 ^F</span></div>
+            <div class="max-min">
+              <div class="max max3">Max: <span>93 ^F</span></div>
+              <div class="min min3">Min: <span>75 ^f</span></div>
+            </div>
+            <div class="condition condition3">Condtion: Sunny</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="units">
+      <div class="farenheit unit selected">°F</div>
+      <div class="celsius unit">°C</div>
+    </div>
+  </body>
 </html>
